@@ -1,0 +1,283 @@
+:root {
+  --interact-color: #2e2f42;
+  --primary-title-color: #2e2f42;
+  --secondary-title-color: #ffffff;
+  --primary-text-color: #434455;
+  --secondary-text-color: #f4f4fd;
+  --accent-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --first-bgc: #2e2f42;
+  --second-bgc: #f4f4fd;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+
+  background-color: #ffffff;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.navigation-link.active {
+  color: var(--pressed-state-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  cursor: pointer;
+}
+
+.text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.title {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--primary-title-color);
+}
+
+.heading {
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+/* --------------------------------HEADER */
+
+.header {
+}
+
+.navigation {
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--interact-color);
+}
+
+.studio {
+  color: var(--interact-color);
+}
+
+.logo:hover .studio,
+.logo:focus .studio {
+  color: var(--pressed-state-color);
+}
+
+.navigation-list {
+}
+
+.navigation-item {
+}
+
+.navigation-link {
+  line-height: 1.5;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--pressed-state-color);
+}
+
+.contacts-list {
+}
+
+.contacts-item {
+}
+
+.contacts-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--pressed-state-color);
+}
+
+/* ---------------------------HERO */
+
+.hero {
+  background-color: var(--first-bgc);
+}
+
+.hero-title {
+  font-size: 56px;
+  color: var(--secondary-title-color);
+}
+
+.hero-button {
+  color: var(--secondary-title-color);
+
+  background-color: var(--accent-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--pressed-state-color);
+}
+
+/* ---------------------------------ABOUT */
+
+.about {
+}
+
+.about-list {
+}
+
+.about-item {
+}
+
+.about-title {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.about-text {
+}
+
+/* ------------------------------TECHNOLOGY */
+
+.technology {
+}
+
+.technology-title,
+.team-title {
+  font-size: 36px;
+  text-transform: capitalize;
+}
+
+.technology-list {
+}
+
+.technology-item {
+}
+
+/* ------------------------------------TEAM */
+
+.team {
+  background-color: var(--second-bgc);
+}
+
+.team-title {
+}
+
+.team-list {
+}
+
+.team-item {
+}
+
+.team-item-title {
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team-item-text {
+  text-align: center;
+}
+
+/* -----------------------footer */
+
+.footer {
+  background-color: var(--first-bgc);
+}
+
+.footer-nav {
+}
+
+.footer-nav > .logo:hover,
+.footer-nav > .logo:focus {
+  color: var(--secondary-text-color);
+}
+
+.footer-nav .studio {
+  color: var(--secondary-text-color);
+}
+
+.footer-nav .studio:hover,
+.footer-nav .studio:focus {
+  color: var(--pressed-state-color);
+}
+
+.footer-text {
+  color: var(--secondary-text-color);
+}
+
+/* -------------------------------------PORTFOLIO */
+
+.portfolio {
+}
+
+.filter-list {
+}
+
+.filter-item {
+}
+
+.filter-btn {
+  text-align: center;
+  color: var(--accent-color);
+
+  background-color: var(--second-bgc);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--secondary-title-color);
+
+  background-color: var(--pressed-state-color);
+}
+
+.portfolio-list {
+}
+
+.portfolio-item {
+}
+
+.portfolio-title {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.portfolio-text {
+}
